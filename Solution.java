@@ -1,9 +1,13 @@
 import java.lang.StringBuilder;
 public class Solution {
     /**
-     *
-     * @param s Mediante la s, le pasamos el string que queremos convertir.
-     * @return Devolvemos el string que hemos pasado ya convertido en camelCase.
+     * Método para convertir un String en el fotmato "camelCase"
+     * @param s En la "s" se le pasa el String a convertir
+     * @return String en camelCase
+     * @examples
+     * "the-stealth-warrior" gets converted to "theStealthWarrior"
+     * "The_Stealth_Warrior" gets converted to "TheStealthWarrior"
+     * "The_Stealth-Warrior" gets converted to "TheStealthWarrior"
      */
    public static String toCamelCase(String s){
         StringBuilder resultado = new StringBuilder();
