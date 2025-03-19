@@ -1,8 +1,3 @@
----
-title: 'Documentación del Proyecto - Convertir String a camelCase'
-disqus: hackmd
----
-
 # 🏆 Convert String to camelCase
 
 ![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
@@ -15,7 +10,12 @@ Este documento describe la implementación de un programa en **Java** que convie
 
 ## 📌 Contenidos
 
-[TOC]
+<!-- TOC -->
+- [📖 Guía de Uso](#-guía-de-uso)
+- [📝 Enunciado del Problema](#-enunciado-del-problema)
+- [🛠️ Implementación en Java](#️-implementación-en-java)
+- [❓ Apéndice y FAQ](#-apéndice-y-faq)
+<!-- /TOC -->
 
 ---
 
@@ -105,10 +105,10 @@ public class Solution {
 
 ## ❓ Apéndice y FAQ
 
-:::info
+
 **¿Encuentras este documento incompleto?**  
 Déjame un comentario y lo mejoraré. 🚀
-:::
+
 
 📌 **Autor:** Jose Carlos González Herrera  
 📌 **Proyecto:** Convertir cadenas a `camelCase`  
